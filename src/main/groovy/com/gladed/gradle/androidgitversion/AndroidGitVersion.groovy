@@ -71,7 +71,7 @@ class AndroidGitVersionExtension {
     /**
      * Format of version string.
      */
-    String format = '%tag%%-count%%-commit%%-branch%%-dirty%'
+    String format = '%branch%%-commit%%-dirty%'
 
     /** Project referenced by this plugin extension */
     private Project project
